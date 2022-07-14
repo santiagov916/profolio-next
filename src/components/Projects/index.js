@@ -180,6 +180,50 @@ function Projects() {
               <h3 className='text-left'>Responsive Web Design</h3>
           </div>
 
+{/* Run Buddy project */}
+<div className="col-md-6 col-sm-12 p-3">
+              <div className='row'>
+                <div className='col'>
+
+              <Card className="border-1 project-div-run">
+                <Card.Body className="project-info text-center">
+                  <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Run Buddy</CardHeader>
+                  
+                  <ul className="list-group list-group-horizontal text-center justify-content-center">
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      CSS
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
+                    </li>
+                    <li className="list-group-item p-0 border-0 mx-2">
+                      Media Query
+                      <span className="badge bg-primary rounded-pill m-2">100%</span>
+                    </li>
+
+                  
+                  </ul>
+                   
+                  <Card.Text >Join Run Buddy and get the body you want with our new website! All CSS + media queries.</Card.Text>
+                
+                <div className="row">
+                  <div className="col-6">
+
+                  <Card.Link href="https://santiagov916.github.io/run-buddy/" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Deployed</Card.Link>
+
+                  </div>
+                  <div className="col-6">
+
+                  <Card.Link href="https://github.com/santiagov916/run-buddy" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Repository</Card.Link>
+
+                  </div>
+
+                </div>
+                </Card.Body>
+               </Card>
+              
+                </div>
+              </div>
+            </div>
+
 {/* first responsive layout (teal colored) */}
             <div className="col-md-6 col-sm-12 p-3">
               <div className='row'>
@@ -245,12 +289,12 @@ function Projects() {
                 <div className="row">
                   <div className="col-6">
 
-                  <Card.Link href="https://santiagov916.github.io/WeatherDashboard/" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Deployed</Card.Link>
+                  <Card.Link href="https://santiagov916.github.io/responsive-layouts/flexbox/index.html" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Deployed</Card.Link>
 
                   </div>
                   <div className="col-6">
 
-                  <Card.Link href="https://github.com/santiagov916/WeatherDashboard" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Repository</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/responsive-layouts/tree/main/flexbox" target="_blank" className="bg-primary text-light rounded p-2 text-decoration-none">Repository</Card.Link>
 
                   </div>
 

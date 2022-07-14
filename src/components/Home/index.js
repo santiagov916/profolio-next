@@ -30,7 +30,7 @@ return (
     <div className='container-fluid mt-5 w-75' id="#home">
         <div className='row justify-content-space-between'>
 
-          <div className='image-side col-lg-5 col-md-12 col-sm-12 p-5 text-center'>
+          <div className='image-side col-lg-5 col-md-12 col-sm-12 p-4 text-center'>
          
             <img className='img-fluid rounded w-50' src={intro} alt='' />
             
@@ -38,21 +38,30 @@ return (
 
          
  
-            <div className='col-lg-7 col-md-12 col-sm-12 m-auto text-center'>
+            <div className='col-lg-7 col-md-12 col-sm-12 m-auto'>
 
-            <p className='display-6 home-title'>Hello, I'm <span className='text-danger'>Santiago Venegas.</span><br /> I'm a Fullstack Developer.</p>
+            <h1 className='home-title text-center'>Hello, I'm <span className='text-danger'>Santiago Venegas.</span><br /> I'm a Fullstack Developer.</h1>
 
-
-            <div className="btn-group pb-5" id='resumeBtn' role="group" aria-label="Button Prompts">
+            <div className='home-btn-div text-center'>
+            <div className="btn-group pb-2 m-auto" id='resumeBtn' role="group" aria-label="Button Prompts">
                 <button type="button" className="btn btn-outline-danger" onClick={scrollToSection}>Portfolio</button>
-                <Button variant="" className=" btn-outline-danger" onClick={handleShow}>
+                <Button variant="" className=" btn-outline-secondary" onClick={handleShow}>
                 Resume
                 </Button>
-                <button type="submit" className="btn btn-outline-danger" ><a href="https://github.com/santiagov916/profolio" className="text-danger text-decoration-none resume-btn" target="_blank" rel="noreferrer">
-                  Resume Repository</a></button>
-         
-
+                <button type="submit" className="btn btn-outline-dark" ><a href="https://calendly.com/santiagov-" className="text-dark text-decoration-none resume-btn" target="_blank" rel="noreferrer">
+                  Let's Talk</a></button>
             </div>
+            </div>
+
+            <ul className='list-unstyled home-list m-auto text-center pb-2'>
+              <li> <p>2 years of development expereince</p></li>
+              <li> <p>Over 400 hours of development hours</p></li>
+              <li> <p>5000+ lines of code of familiar languages</p></li>
+            </ul>
+
+           
+            
+            
             </div>
 
             

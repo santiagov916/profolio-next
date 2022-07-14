@@ -73,6 +73,13 @@ img {
     background-repeat: no-repeat;
 }
 
+.project-div-run {
+    background-image: url('./assets/projects/run.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .project-div-employee:hover {
     background-image: unset;
 }
@@ -105,8 +112,22 @@ img {
     background-image: unset;
 }
 
+.project-div-run:hover {
+    background: unset;
+}
+
 a:hover {
     opacity: 75%;
+}
+
+.home-list {
+    text-align: start !important;
+    padding-top: 1rem;
+}
+
+.home-list li p {
+    align-items: center;
+    line-height: 0.8rem;
 }
 
 .project-info {
@@ -178,6 +199,18 @@ a:hover {
    .home-title {
     font-size: 2rem !important;
    }
+}
+
+@media (max-width: 1020px) {
+    .home-title {
+        font-size: 1.5rem !important;
+        padding-top: 2rem !important;
+    }
+
+    .home-list {
+        text-align: center !important;
+        font-size: 1rem !important;
+    }
 }
 
 @media (max-width: 600px) {
