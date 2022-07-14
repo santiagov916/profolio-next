@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif !important;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.project-link:hover {
+    background-color: white;
+}
+
+.project-div-weather {
+    background-image: url('./assets//projects/weatherdash.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-ecom {
+    background-image: url('./assets//projects/ecomdb.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-employee {
+    background-image: url('./assets//projects/employee.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-social {
+    background-image: url('./assets//projects/social.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-notes {
+    background-image: url('./assets//projects/notes.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-team {
+    background-image: url('./assets//projects/team.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-responsive {
+    background-image: url('./assets/projects/responsive.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-responsive-two {
+    background-image: url('./assets/projects/quality.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-div-employee:hover {
+    background-image: unset;
+}
+
+.project-div-weather:hover {
+    background-image: unset;
+}
+
+.project-div-ecom:hover {
+    background-image: unset;
+}
+
+.project-div-social:hover {
+    background-image: unset;
+}
+
+.project-div-notes:hover {
+    background-image: unset;
+}
+
+.project-div-team:hover {
+    background-image: unset;
+}
+
+.project-div-responsive:hover {
+    background-image: unset;
+}
+
+.project-div-responsive-two:hover {
+    background-image: unset;
+}
+
+a:hover {
+    opacity: 75%;
+}
+
+.project-info {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.project-info:hover {
+    opacity: 1;
+}
+
+.resume-btn:hover {
+    color: #f8f9fa !important;
+    font-weight: bold;
+}
+
+.nav-focus:hover {
+    color: #dc3545 !important;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-list-two {
+    justify-content: space-evenly;
+}
+
+.contact-list,
+.contact-list-two {
+    align-items: center;
+    display: flex;
+}
+
+.contact-list li { 
+    width: 100%;
+}
+
+.custom-border {
+    border-bottom: 1px solid #dc3545;
+}
+
+
+
+.skills-ul li,
+.currently li {
+    margin-bottom: 1rem;
+}
+
+@media (max-width:600px) {
+    .skills-ul li {
+        margin-bottom: .5rem;
+    }
+}
+
+@media (max-width:1230px) {
+   .home-title {
+    font-size: 2rem !important;
+   }
+}
+
+@media (max-width: 600px) {
+    .home-title {
+        font-size: 1.5em !important;
+    }
+
+    .skills-title {
+        margin-top: 1rem;
+    }
+
+    .skill-name {
+        border-bottom: none;
+    }
+}
