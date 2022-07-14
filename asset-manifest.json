@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profolio-next/static/css/main.fa3d840d.css",
-    "main.js": "/profolio-next/static/js/main.1e556a1f.js",
+    "main.css": "/profolio-next/static/css/main.5d717060.css",
+    "main.js": "/profolio-next/static/js/main.f35ca332.js",
     "static/js/787.eae6f066.chunk.js": "/profolio-next/static/js/787.eae6f066.chunk.js",
     "static/media/social.png": "/profolio-next/static/media/social.1f90c35581667c593c6b.png",
     "static/media/0.jpg": "/profolio-next/static/media/0.04a4ce50533a2461013d.jpg",
@@ -9,6 +9,7 @@
     "static/media/side.jpeg": "/profolio-next/static/media/side.9b8ddad21ad962a4327d.jpeg",
     "static/media/ecomdb.png": "/profolio-next/static/media/ecomdb.21cb222763efe31612f2.png",
     "static/media/stairs.jpeg": "/profolio-next/static/media/stairs.48e52d573584e486b9aa.jpeg",
+    "static/media/run.png": "/profolio-next/static/media/run.388f95091fba33705193.png",
     "static/media/employee.png": "/profolio-next/static/media/employee.e67bf28d058544c1ae48.png",
     "static/media/weatherdash.png": "/profolio-next/static/media/weatherdash.4dcd172d1da3ba251b35.png",
     "static/media/handshake.jpeg": "/profolio-next/static/media/handshake.c4b19a323322dd373189.jpeg",
@@ -17,12 +18,12 @@
     "static/media/team.png": "/profolio-next/static/media/team.2012a4cb9314dcf3d46a.png",
     "static/media/quality.png": "/profolio-next/static/media/quality.809ec7784ab5db9e1472.png",
     "index.html": "/profolio-next/index.html",
-    "main.fa3d840d.css.map": "/profolio-next/static/css/main.fa3d840d.css.map",
-    "main.1e556a1f.js.map": "/profolio-next/static/js/main.1e556a1f.js.map",
+    "main.5d717060.css.map": "/profolio-next/static/css/main.5d717060.css.map",
+    "main.f35ca332.js.map": "/profolio-next/static/js/main.f35ca332.js.map",
     "787.eae6f066.chunk.js.map": "/profolio-next/static/js/787.eae6f066.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa3d840d.css",
-    "static/js/main.1e556a1f.js"
+    "static/css/main.5d717060.css",
+    "static/js/main.f35ca332.js"
   ]
 }
