@@ -8,12 +8,12 @@ function Contact() {
   return (
     <Container id="#contact" className="my-5 border-top">
 
-      <Row className="mt-5">
-        <Col className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-auto">
-          <Image fluid src={side} />
+      <Row className="mt-5 contact-row">
+        <Col className="col-sm-12 col-md-4 col-lg-4 col-xl-4 my-auto">
+          <Image className="w-75 d-flex m-auto" src={side} />
         </Col>
 
-        <Col className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 my-auto">
+        <Col className="col-sm-12 col-md-8 col-lg-8 col-xl-8 my-auto contact-info-container">
          
          <div className="contact-info">
 

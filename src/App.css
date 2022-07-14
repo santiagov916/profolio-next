@@ -197,4 +197,11 @@ a:hover {
         padding: 0.5rem !important;
         font-size: 1.3rem;
     }
+
+}
+
+@media (max-width: 599px) {
+    .contact-row {
+        display: block !important;
+    }
 }
