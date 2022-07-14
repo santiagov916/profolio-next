@@ -274,7 +274,6 @@ function Projects() {
 
   </div>
 
-
 {/* note taker project */}
   <div className="col-md-6 col-sm-12 p-3">
 
@@ -300,13 +299,13 @@ function Projects() {
     <div className="row">
                   <div className="col-6 m-auto">
 
-                  <Card.Link href="https://github.com/santiagov916/notetaker" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
+                  <Card.Link href="https://whispering-lowlands-02986.herokuapp.com/" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Deployed</Card.Link>
 
                   </div>
 
                   <div className="col-6 m-auto">
 
-                  <Card.Link href="https://whispering-lowlands-02986.herokuapp.com/" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Deployed</Card.Link>
+                  <Card.Link href="https://github.com/santiagov916/notetaker" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
                   </div>
 
@@ -362,7 +361,7 @@ function Projects() {
 <div className="col-md-6 col-sm-12 p-3">
 
 {/* info section */}
-    <Card className="border-0 project-div-team">
+    <Card className="border-1 project-div-team">
       <Card.Body className="project-info text-center">
         <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Team Generator</CardHeader>
         
@@ -384,7 +383,7 @@ function Projects() {
           </li>
         </ul>
           
-        <Card.Text >Use NPM's CLI inquirer package to create a quick team to keep track of! All the basics of each individual are included! Generate your team with your players!</Card.Text>
+        <Card.Text >Use NPM's CLI inquirer package to create a quick team to keep track of!</Card.Text>
 
 {/* button links */}
       <div className="row">
@@ -411,7 +410,7 @@ function Projects() {
 <div className="col-md-6 col-sm-12 p-3">
 
 {/* info section */}
-  <Card className="border-0 project-div-employee">
+  <Card className="border-1 project-div-employee">
     <Card.Body className="project-info text-center">
       <CardHeader className="text-dark bg-light text-center m-1 border-0 ">Employee Tracker</CardHeader>
       
@@ -426,18 +425,18 @@ function Projects() {
         </li>
       </ul>
         
-      <Card.Text >Simple and straight to it database design with CLI inquirer prompting! MySQL2 database; see repository for instructions </Card.Text>
+      <Card.Text >Straight to it database design with CLI inquirer prompting! MySQL2 database; </Card.Text>
     
 {/* button links */}
     <div className="row">
       <div className="col-6">
 
-      <Card.Link href="https://github.com/santiagov916/employee-tracker#installation" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
+      <Card.Link href="https://watch.screencastify.com/v/kw2unOn8R11PL1LOkb74" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Video Demo</Card.Link>
 
       </div>
       <div className="col-6">
 
-      <Card.Link href="https://watch.screencastify.com/v/kw2unOn8R11PL1LOkb74" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Video Demo</Card.Link>
+      <Card.Link href="https://github.com/santiagov916/employee-tracker#installation" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
 
       </div>
 
@@ -448,14 +447,15 @@ function Projects() {
 
 </div>
 
+{/* Backend Section */}
           <div className="row">
            
             <div className="col-12">
               <div className="row py-1">
-                <div className="col-12">
-                  <p className="h3 text-center p-4">Backend Development</p>
-                </div>
+  
+                  <p className="h3 text-left py-3">Backend Development</p>
 
+    {/* E commerce Project */}
               <div className="col-md-6 col-xs-12 col-sm-12 p-3">
               <Card className="border-0 project-div-ecom">
                 <Card.Body className="project-info text-center">
@@ -480,24 +480,19 @@ function Projects() {
                     </li>
                   </ul>
                    
-                  <Card.Text >Complete Backend for an online business, See repository for functionality!</Card.Text>
+                  <Card.Text >Complete Backend for an online E-commerce business.</Card.Text>
                 
+    {/* Button links */}
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-6">
 
                   <Card.Link href="https://watch.screencastify.com/v/wYtjVHLlWqBIb7ODloDF" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Tutorial</Card.Link>
 
                   </div>
 
-                  <div className="col-4">
+                  <div className="col-6">
 
                     <Card.Link href="https://github.com/santiagov916/e-commerce-database" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
-
-                  </div>
-
-                  <div className="col-4">
-
-                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 
@@ -506,6 +501,7 @@ function Projects() {
                </Card>
               </div>
 
+    {/* Social API Project */}
               <div className="col-md-6 col-xs-12 col-sm-12 p-3">
               <Card className="border-0 project-div-social">
                 <Card.Body className="project-info text-center">
@@ -530,23 +526,18 @@ function Projects() {
                     </li>
                   </ul>
                    
-                  <Card.Text >Backend database created for a social media setting! Tested by Insomnia.</Card.Text>
-                
+                  <Card.Text >Database created for a social media setting! Tested by Insomnia.</Card.Text>
+
+        {/* Button links */}
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-6">
 
                   <Card.Link href="https://watch.screencastify.com/v/2VL0T3rs0bSvJ2ANAWCd" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Tutorial</Card.Link>
 
                   </div>
-                  <div className="col-4">
+                  <div className="col-6">
 
                   <Card.Link href="https://github.com/santiagov916/social-api" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Repository</Card.Link>
-
-                  </div>
-
-                  <div className="col-4">
-
-                  <Card.Link href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" className="bg-primary text-light rounded p-2 text-decoration-none" target="_blank">Clone Repo</Card.Link>
 
                   </div>
 

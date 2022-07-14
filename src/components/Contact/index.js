@@ -13,26 +13,26 @@ function Contact() {
           <Image fluid src={side} />
         </Col>
 
-        <Col className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        <Col className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 my-auto">
          
          <div className="contact-info">
 
-              <h4 className="border-bottom m-auto p-3">Contact Me
+              <h4 className="border-bottom m-auto contact-title">Contact Me
               </h4>
          
-          <ul className="list-unstyled contact-list pt-3">
+          <ul className="list-unstyled contact-list pt-2">
             <li>
-              <a className="text-decoration-none text-dark" href="https://github.com/santiagov916" target="_blank" rel="noreferrer">
+              <a className="contact text-decoration-none text-dark" href="https://github.com/santiagov916" target="_blank" rel="noreferrer">
                 Github
               </a>
             </li>
             <li>
-              <a className="text-decoration-none text-dark" href="https://www.linkedin.com/in/santiago-venegas-b36931235/" target="_blank" rel="noreferrer">
+              <a className="contact text-decoration-none text-dark" href="https://www.linkedin.com/in/santiago-venegas-b36931235/" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
             </li>
             <li>
-              <a className="text-decoration-none text-dark" href="https://stackoverflow.com/users/18916266/santiagovenegas" target="_blank" rel="noreferrer">
+              <a className="contact text-decoration-none text-dark" href="https://stackoverflow.com/users/18916266/santiagovenegas" target="_blank" rel="noreferrer">
                 Stack Overflow
                 </a>
             </li>
@@ -42,8 +42,11 @@ function Contact() {
             <li>santiago1venegas@gmail.com</li>
             <li>9162749681</li>
           </ul>
+            
+          <a className="text-primary link text-center calendly" href="https://calendly.com/santiagov-" target="_blank" rel="noreferrer">
+           <h6>Book a scheduled call</h6>
+          </a>
          </div>
-
 
        
         </Col>

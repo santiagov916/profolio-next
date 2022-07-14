@@ -8,7 +8,6 @@ import { Image, Row, Col } from 'react-bootstrap';
 function About() {
     return(
 
-        <div>
             <div className='container border-top' id="#about">
                 <div className='row mt-4'>
                     <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6 m-auto">
@@ -71,7 +70,6 @@ function About() {
             </div>
                 </div>
             </div>
-        </div>
     )
 }
 

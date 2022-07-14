@@ -156,20 +156,25 @@ a:hover {
     border-bottom: 1px solid #dc3545;
 }
 
-
-
 .skills-ul li,
 .currently li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-@media (max-width:600px) {
-    .skills-ul li {
-        margin-bottom: .5rem;
-    }
+.contact:hover {
+    color: #0d6efd !important;
 }
+
+.calendly:hover {
+    color: #dc3545 !important;
+}
+
 
 @media (max-width:1230px) {
+    .contact-title {
+    padding: 1rem !important;
+    }
+
    .home-title {
     font-size: 2rem !important;
    }
@@ -186,5 +191,10 @@ a:hover {
 
     .skill-name {
         border-bottom: none;
+    }
+
+    .contact-title {
+        padding: 0.5rem !important;
+        font-size: 1.3rem;
     }
 }

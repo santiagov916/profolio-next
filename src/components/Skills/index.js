@@ -8,14 +8,18 @@ function TechnicalSkills() {
     return (
         <>
         <div className='container border-top'>
-            <div className='row my-4 align-items-center'>
-                <div className='col-4 skills-photo m-auto d-md-flex'>
-                <img src={stairs} alt='Santiago Venegas in a suit walking up the stairs'/>
+            <div className='row my-4'>
+                <div className='col-md-6 col-lg-4 m-auto'>
+                    <div className='text-center'>
+                <img className='w-50 mh-25' src={stairs} alt='Santiago Venegas in a suit walking up the stairs'/>
                 </div>
-            <div className='col-sm-12 col-md-8 m-auto '>
-                <h3 className='text-center skills-title pb-3'>Technical Skills</h3>
+                    </div>
+            <div className='col-sm-12 col-md-12 m-auto col-lg-8'>
+                <h3 className='text-center skills-title py-2'>Technical Skills</h3>
+
                 <div className='row'>
-                    <div className='col-sm-12 col-md-6'>
+
+                    <div className='col-sm-12 col-md-4'>
                         <h5 className='text-center skill-name pb-2 custom-border'>CSS:</h5>
                         <ul className='list-unstyled text-left skills-ul'>
                             <li>Fundamentals (classes, variables, DevOps Tools, plug-ins)</li>
@@ -25,7 +29,9 @@ function TechnicalSkills() {
                             <li>Sass</li>
                         </ul>
                     </div>
-                    <div className='col-sm-12 col-md-6'>
+
+
+                    <div className='col-sm-12 col-md-4'>
                         <h5 className='text-center skill-name pb-2 custom-border'>JavaScript:</h5>
                         <ul className='list-unstyled text-left skills-ul'>
                             <li>Fundamentals (variables, arrays, objects, syntax, ES6)</li>
@@ -35,15 +41,19 @@ function TechnicalSkills() {
                             <li>JQuery / syntax</li>
                         </ul>
                     </div>
-                    <div className='col-sm-12 col-md-6 m-auto'>
-                    <h5 className='text-center pb-3 skill-name custom-border'>Have Experience with:</h5>
-                    <ul className='list-unstyled skills-ul'>
-                        <li>VS Code</li>
-                            <li>Databases such as GraphQL, MongoDB, MySQL</li>
-                            <li>MERN stack development</li>
-                            <li>OOP</li>
-                            <li>Reading documentation</li>
-                            <li>Graphic Design and Figma.com</li>
+
+
+                    <div className='col-sm-12 col-md-4'>
+                    <h5 className='text-center pb-2 skill-name custom-border'>Experience in:</h5>
+                    <ul className='skills-ul list-inline'>
+                        <li className='list-inline-item'>VS Code</li>
+                        <li className='list-inline-item'>Databases such as GraphQL, MongoDB, MySQL</li>
+                        <li className='list-inline-item'>MERN stack development</li>
+                        <li className='list-inline-item'>OOP</li>
+                        <li className='list-inline-item'>
+                            Reading documentation
+                        </li>
+                        <li className='list-inline-item'>Graphic Design and Figma.com</li>
                         </ul>
                     </div>
                 </div>
