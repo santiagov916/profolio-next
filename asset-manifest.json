@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/profolio-next/static/css/main.6ab6b4c6.css",
+    "main.js": "/profolio-next/static/js/main.b0dd8bcf.js",
+    "static/js/787.eae6f066.chunk.js": "/profolio-next/static/js/787.eae6f066.chunk.js",
+    "static/media/social.png": "/profolio-next/static/media/social.1f90c35581667c593c6b.png",
+    "static/media/0.jpg": "/profolio-next/static/media/0.04a4ce50533a2461013d.jpg",
+    "static/media/responsive.png": "/profolio-next/static/media/responsive.25eb5b5d3508facf0b2f.png",
+    "static/media/side.jpeg": "/profolio-next/static/media/side.9b8ddad21ad962a4327d.jpeg",
+    "static/media/ecomdb.png": "/profolio-next/static/media/ecomdb.21cb222763efe31612f2.png",
+    "static/media/stairs.jpeg": "/profolio-next/static/media/stairs.48e52d573584e486b9aa.jpeg",
+    "static/media/employee.png": "/profolio-next/static/media/employee.e67bf28d058544c1ae48.png",
+    "static/media/weatherdash.png": "/profolio-next/static/media/weatherdash.4dcd172d1da3ba251b35.png",
+    "static/media/handshake.jpeg": "/profolio-next/static/media/handshake.c4b19a323322dd373189.jpeg",
+    "static/media/notes.png": "/profolio-next/static/media/notes.5065501a4eb8fddc4abd.png",
+    "static/media/main.pdf": "/profolio-next/static/media/main.7885e6b986442702f0b2.pdf",
+    "static/media/team.png": "/profolio-next/static/media/team.2012a4cb9314dcf3d46a.png",
+    "static/media/quality.png": "/profolio-next/static/media/quality.809ec7784ab5db9e1472.png",
+    "index.html": "/profolio-next/index.html",
+    "main.6ab6b4c6.css.map": "/profolio-next/static/css/main.6ab6b4c6.css.map",
+    "main.b0dd8bcf.js.map": "/profolio-next/static/js/main.b0dd8bcf.js.map",
+    "787.eae6f066.chunk.js.map": "/profolio-next/static/js/787.eae6f066.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ab6b4c6.css",
+    "static/js/main.b0dd8bcf.js"
+  ]
+}
