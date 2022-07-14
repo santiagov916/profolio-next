@@ -54,7 +54,7 @@ return (
             </div>
 
             <ul className='list-unstyled home-list m-auto text-center pb-2'>
-              <li> <p>3 years of development expereince</p></li>
+              <li> <p>3 years of development experience</p></li>
               <li> <p>Over 400 hours of development hours</p></li>
               <li> <p>5000+ lines of code of familiar languages</p></li>
             </ul>
